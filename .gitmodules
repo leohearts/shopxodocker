@@ -1,0 +1,3 @@
+[submodule "shopxophp/shopxo"]
+	path = shopxophp/shopxo
+	url = https://github.com/gongfuxiang/shopxo.git
