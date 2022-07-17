@@ -10,4 +10,4 @@ rm -rf /var/www/html/*
 COPY ./shopxo/ /var/www/html
 RUN chmod 777 /var/www/html -R
 
-ENTRYPOINT /bin/bash -c 'service apache2 start; sleep 100000000;'
+ENTRYPOINT /bin/bash -c 'service apache2 start; sleep INFINITY;'
